@@ -1,0 +1,12 @@
+package: github.com/ericchiang/kube-rollback-controller
+import:
+- package: github.com/ericchiang/k8s
+  version: v0.1.0
+- package: golang.org/x/net
+  subpackages:
+  - http2
+  version: 61557ac0112b576429a0df080e1c2cef5dfbb642
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+  version: 8ee79997227bf9b34611aee7946ae64735e6fd93
