@@ -86,7 +86,7 @@ func (c *rollbackController) run(ctx context.Context) error {
 func kubectlClient() (*k8s.Client, error) {
 	stderr := new(bytes.Buffer)
 	stdout := new(bytes.Buffer)
-	cmd := exec.Command("kubectl", "config", "view", "-o", "json")
+	cmd := exec.Command("kubectl", "config", "view", "--raw", "-o", "json")
 	cmd.Stdout = stdout
 	cmd.Stderr = stderr
 	if err := cmd.Run(); err != nil {
