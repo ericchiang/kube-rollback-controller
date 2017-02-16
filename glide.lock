@@ -1,0 +1,38 @@
+hash: ec52667881a2b98f71b4e10f83943c715fee79c8b91f23485b9025b9f35c9e2e
+updated: 2017-02-11T10:12:42.383566295-08:00
+imports:
+- name: github.com/ericchiang/k8s
+  version: 7625b89e05e472b7b148359013b08a38aa86e364
+  subpackages:
+  - api/resource
+  - api/unversioned
+  - api/v1
+  - apis/apps/v1alpha1
+  - apis/apps/v1beta1
+  - apis/authentication/v1beta1
+  - apis/authorization/v1beta1
+  - apis/autoscaling/v1
+  - apis/batch/v1
+  - apis/batch/v2alpha1
+  - apis/certificates/v1alpha1
+  - apis/extensions/v1beta1
+  - apis/imagepolicy/v1alpha1
+  - apis/policy/v1alpha1
+  - apis/policy/v1beta1
+  - apis/rbac/v1alpha1
+  - apis/storage/v1beta1
+  - runtime
+  - util/intstr
+  - watch/versioned
+- name: github.com/golang/protobuf
+  version: 8ee79997227bf9b34611aee7946ae64735e6fd93
+  subpackages:
+  - proto
+- name: golang.org/x/net
+  version: 61557ac0112b576429a0df080e1c2cef5dfbb642
+  subpackages:
+  - http2
+  - http2/hpack
+  - idna
+  - lex/httplex
+testImports: []
